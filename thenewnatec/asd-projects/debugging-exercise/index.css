@@ -1,0 +1,16 @@
+#board {
+    background: rgb(0, 0, 0);
+    width: 400px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+}
+
+
+.circle {
+    background: rgb(130, 130, 209);
+    width: 23px;
+    height: 83px;
+    border-radius: 44px;
+    position: absolute;
+}
