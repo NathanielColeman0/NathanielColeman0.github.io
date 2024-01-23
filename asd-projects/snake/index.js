@@ -165,7 +165,7 @@ function moveSnake() {
    COLUMNS; 10 // the total number of COLUMNS in the board
    snake.head.row; [] // the current row of snake.head
    snake.head.column; [] // the current column of snake.head
-   return false;
+   
    if (snake.head.row === 22){
      return true;
    }
@@ -177,6 +177,9 @@ function moveSnake() {
    }
    if (snake.head.colum === 22){
      return true;
+   }
+   else {
+    return false;
    }
  }
 
