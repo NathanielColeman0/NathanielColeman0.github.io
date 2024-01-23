@@ -123,19 +123,7 @@ function moveSnake() {
   column/row properties. 
   
   */
-  for ( ) {
-    var snakeSquare = "???";
-
-    var nextSnakeSquare = "???";
-    var nextRow = "???";
-    var nextColumn = "???";
-    var nextDirection = "???";
-
-    snakeSquare.direction = nextDirection;
-    snakeSquare.row = nextRow;
-    snakeSquare.column = nextColumn;
-    repositionSquare(snakeSquare);
-}
+  
   //Before moving the head, check for a new direction from the keyboard input
   checkForNewDirection();
 
