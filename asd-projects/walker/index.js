@@ -34,8 +34,14 @@ function runProgram(){
   /* 
   Called in response to events.
   */
-  function handleEvent(event) {
+  function handleKeyDown(event) {
+  // SETUP...
+$(document).on('keydown', handleKeyDown);
 
+// CORE LOGIC...
+function handleKeyDown(event) {
+  console.log(handleKeyDown);
+}
   }
 
   ////////////////////////////////////////////////////////////////////////////////
